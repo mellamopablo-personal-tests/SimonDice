@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="2"
+    android:columnCount="2"
+    tools:context="io.github.mellamopablo.simondice.MainActivity">
+
+    <Button
+        android:id="@+id/greenButton"
+        android:background="@color/greenButton"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1" />
+
+    <Button
+        android:id="@+id/redButton"
+        android:background="@color/redButton"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1" />
+    <Button
+        android:id="@+id/yellowButton"
+        android:background="@color/yellowButton"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1" />
+
+    <Button
+        android:id="@+id/blueButton"
+        android:background="@color/blueButton"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1" />
+
+</GridLayout>
