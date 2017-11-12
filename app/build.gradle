@@ -31,5 +31,6 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
 
     // Custom dependencies
+    compile "com.android.support:design:26.1.0"
     compile 'io.reactivex.rxjava2:rxkotlin:2.1.0'
 }

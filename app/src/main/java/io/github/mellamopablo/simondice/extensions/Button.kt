@@ -6,8 +6,6 @@ import android.animation.ArgbEvaluator
 import android.animation.ValueAnimator
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
-import android.view.animation.Animation
-import android.view.animation.AnimationSet
 import android.widget.Button
 import io.github.mellamopablo.simondice.R
 import io.reactivex.Observable
